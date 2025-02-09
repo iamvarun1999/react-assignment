@@ -1,0 +1,61 @@
+:root{
+  --primary-color:rgba(243,119,28,1);
+}
+
+
+.active{
+  font-weight: 600;
+  color: var(--primary-color) !important;
+}
+
+.fw-500{
+  font-weight: 500 !important;
+}
+
+.f-10{
+  font-size: 10px;
+}
+.f-12{
+  font-size: 12px;
+}
+.f-14{
+  font-size: 14px;
+}
+
+.bg-footer{
+  background:rgb(28, 26, 26);
+}
+
+.text-primary{
+  color: var(--primary-color) !important;
+}
+.btn-primary{
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.imgContainer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  max-height: 150px;
+  img{
+    object-fit: contain;
+    height: 80%;
+    width: auto;
+  }
+}
+
+.border-none{
+  border: none !important;
+}
+
+.sidebar-content{
+  height: 100vh;
+  overflow: auto;
+}
